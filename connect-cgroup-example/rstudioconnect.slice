@@ -1,0 +1,10 @@
+[Unit]
+Description=Slice for RStudio Connect service processes
+
+[Slice]
+# Example limits for the whole Connect process and all it's spawned Content Applications/Jobs (adjust to your needs)
+CPUQuota=200%
+MemoryMax=8G
+
+[Install]
+WantedBy=multi-user.target

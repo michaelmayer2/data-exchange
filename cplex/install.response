@@ -1,0 +1,15 @@
+#Indicate whether the license agreement been accepted
+#----------------------------------------------------
+LICENSE_ACCEPTED=TRUE
+
+#Choose Install Folder
+#---------------------
+USER_INSTALL_DIR=/usr/local/cplex/22.1.2
+
+#Install
+#-------
+-fileOverwrite_/usr/local/cplex/22.1.2/swidtag/ILMT/installTag.txt=Yes
+-fileOverwrite_/usr/local/cplex/22.1.2/Uninstall/symlinks-linux.sh=Yes
+-fileOverwrite_/usr/local/cplex/22.1.2/Uninstall/Uninstall.lax=Yes
+-fileOverwrite_/usr/local/cplex/22.1.2/Uninstall/cos-segment.jar=Yes
+
